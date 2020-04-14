@@ -33,6 +33,24 @@ body {
   cursor: pointer;
 }
 
+#active {
+  color: grey;
+}
+
+.navbar-menu li:hover {
+  color: grey;
+}
+
+.navbar-menu i {
+  margin-left: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.navbar-menu i:hover {
+  color: grey;
+}
+
 .header {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS_JxyiupBazJ4ByyFbx7Dd24u5AkWL2faVJ3QG7geKCEjeuzv5);
   background-size: cover;
